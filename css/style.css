@@ -1477,4 +1477,109 @@ body {
   color: #ffffff;
   margin-bottom: 5px;
 }
+
+@media screen and (max-width: 375px) {
+  .header {
+    display: block;
+    background-color: inherit;
+    padding: 16px 0 73px;
+    background-image: none;
+    background-image: url("../images/shutterstockSmall.png");
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__contact .logo {
+    margin-right: auto;
+    margin-bottom: 8px;
+  }
+  .header__contact-tel {
+    margin: 0 auto 8px;
+  }
+  .header__contact-tel span {
+    font-size: 12px;
+  }
+  .header__contact-link {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .header__contact-messenger {
+    margin-bottom: 10px;
+  }
+  .header__title {
+    font-size: 29px;
+    line-height: 35px;
+    margin-bottom: 13px;
+  }
+  .header__text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 27px;
+  }
+  .header__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 21px;
+    text-align: center;
+  }
+  .header__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__inner-info {
+    max-width: 211px;
+    padding: 26px 10px 27px 9px;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .header__inner-text {
+    font-size: 11px;
+    line-height: 141.4%;
+    margin-bottom: 14px;
+  }
+  .header__inner-btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 8px 30px;
+  }
+  .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 56px;
+  }
+  .header__list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .header__list-item img {
+    margin-bottom: 12px;
+    margin-right: 0;
+    width: 35px;
+    height: 35px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
