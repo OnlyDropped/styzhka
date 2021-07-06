@@ -1270,4 +1270,70 @@ body {
       height: 35px;
     }
   }
+  .expert {
+    //padding: 0;
+    //background-position-x: center;
+    background-image: none;
+    background-image: url("../images/expert-bgSmall.png");
+    background-position-y: center;
+    &__box {
+      max-width: 343px;
+    }
+    &__wrapper {
+      padding-left: 0;
+    }
+    &__title {
+      margin: -118px auto 21px;
+      text-align: center;
+      font-size: 22px;
+      line-height: 27px;
+    }
+    &__info {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &__list {
+      flex-direction: column;
+      margin-bottom: 64px;
+    }
+    &__list-item {
+      text-align: left;
+      font-size: 12px;
+      line-height: 15px;
+      margin-bottom: 12px;
+      span {
+        text-align: left;
+        font-size: 28px;
+        line-height: 34px;
+      }
+    }
+    &__subtitle {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+    &__link {
+      font-size: 25px;
+      line-height: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    &__block {
+      padding: 25px 40px;
+      &::after{
+        display: none;
+        //position: absolute;
+        //content: url('../images/overSmall.svg');
+      }
+      img {
+        width: 49px;
+        height: 49px;
+      }
+    }
+    &__block-text {
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
 }
