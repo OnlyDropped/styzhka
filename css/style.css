@@ -1482,7 +1482,7 @@ body {
   .header {
     display: block;
     background-color: inherit;
-    padding: 16px 0 73px;
+    padding: 16px 0 120px;
     background-image: none;
     background-image: url("../images/shutterstockSmall.png");
     background-position-x: right;
@@ -1649,6 +1649,48 @@ body {
   .expert__block-text {
     font-size: 14px;
     line-height: 17px;
+  }
+  .material {
+    padding: 53px 0 53px;
+  }
+  .material__title {
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 13px;
+  }
+  .material__subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 14px;
+  }
+  .material__box {
+    background-image: none;
+    background-image: url("../images/materialsSmall.png");
+    background-position: left;
+    background-position-y: left;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-bottom: 26px;
+  }
+  .material__box-content {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 8px 27px 21px;
+  }
+  .material__box-card:nth-child(1) {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    margin-bottom: 10px;
+  }
+  .material__box-card:nth-child(2) {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    margin-bottom: 10px;
+  }
+  .material__box-card:nth-child(3) {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
 }
 /*# sourceMappingURL=style.css.map */

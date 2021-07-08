@@ -1187,7 +1187,7 @@ body {
   .header {
     display: block;
     background-color: inherit;
-    padding: 16px 0 73px;
+    padding: 16px 0 120px;
     background-image: none;
     background-image: url("../images/shutterstockSmall.png");
     background-position-x: right;
@@ -1321,7 +1321,7 @@ body {
     }
     &__block {
       padding: 25px 40px;
-      &::after{
+      &::after {
         display: none;
         //position: absolute;
         //content: url('../images/overSmall.svg');
@@ -1334,6 +1334,47 @@ body {
     &__block-text {
       font-size: 14px;
       line-height: 17px;
+    }
+  }
+  .material {
+    padding: 53px 0 53px;
+    &__title {
+      font-size: 19px;
+      line-height: 24px;
+      margin-bottom: 13px;
+    }
+    &__subtitle {
+      font-size: 14px;
+      line-height: 17px;
+      margin-bottom: 14px;
+    }
+    &__box {
+      background-image: none;
+      background-image: url("../images/materialsSmall.png");
+      background-position: left;
+      background-position-y: left;
+      height: auto;
+      padding-top: 10px;
+      padding-left: 0px;
+      margin-bottom: 26px;
+    }
+    &__box-content {
+      font-size: 16px;
+      line-height: 20px;
+      padding: 12px 8px 27px 21px;
+    }
+    &__box-card:nth-child(1) {
+      transform: translateX(0px);
+     // transform: translateY(410px);
+      margin-bottom: 10px;
+    }
+    &__box-card:nth-child(2) {
+      transform: translateX(0px);
+      //transform: translateY(300px);
+      margin-bottom: 10px;
+    }
+    &__box-card:nth-child(3) {
+      transform: translateX(0px);
     }
   }
 }
