@@ -1692,5 +1692,29 @@ body {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
   }
+  .price {
+    padding: 53px 0 53px;
+  }
+  .price__title {
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 24px;
+  }
+  .price__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .price__card {
+    width: 100%;
+    margin-bottom: 27px;
+  }
+  .price__card:last-child {
+    margin-bottom: 0;
+  }
+  .price__card img {
+    width: inherit;
+  }
 }
 /*# sourceMappingURL=style.css.map */

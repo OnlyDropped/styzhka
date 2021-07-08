@@ -1365,7 +1365,7 @@ body {
     }
     &__box-card:nth-child(1) {
       transform: translateX(0px);
-     // transform: translateY(410px);
+      // transform: translateY(410px);
       margin-bottom: 10px;
     }
     &__box-card:nth-child(2) {
@@ -1375,6 +1375,27 @@ body {
     }
     &__box-card:nth-child(3) {
       transform: translateX(0px);
+    }
+  }
+  .price {
+    padding: 53px 0 53px;
+    &__title {
+      font-size: 22px;
+      line-height: 27px;
+      margin-bottom: 24px;
+    }
+    &__inner {
+      flex-direction: column;
+    }
+    &__card {
+      width: 100%;
+      margin-bottom: 27px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+      img{
+        width: inherit;
+      }
     }
   }
 }
