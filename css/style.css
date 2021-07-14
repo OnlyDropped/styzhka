@@ -1989,5 +1989,70 @@ body {
     background-image: none;
     background-image: url("../images/accord-checkedSmall.svg");
   }
+  .tel__content {
+    max-width: 333px;
+    padding: 38px 15px 42px 14px;
+  }
+  .tel__content::before {
+    width: 66px;
+    height: 66px;
+  }
+  .tel__content::after {
+    width: 66px;
+    height: 66px;
+  }
+  .tel__inner {
+    background-image: none;
+  }
+  .tel__title {
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 14px;
+  }
+  .tel__subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 37px;
+  }
+  .tel__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .tel__form-tel {
+    width: 100%;
+    -webkit-box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 27px;
+  }
+  .tel__form-btn {
+    font-size: 14px;
+    line-height: 17px;
+    -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 224px;
+    margin: 0 auto;
+  }
+  .tel__span {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 9px;
+  }
+  .tel__link {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .tel__box::before {
+    content: none;
+    content: url("../images/overSm.svg");
+    left: -23px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
