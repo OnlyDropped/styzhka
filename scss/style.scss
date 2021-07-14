@@ -1714,11 +1714,33 @@ body {
       font-size: 25px;
       line-height: 30px;
     }
-    &__box{
-      &::before{
+    &__box {
+      &::before {
         content: none;
-        content: url('../images/overSm.svg');
+        content: url("../images/overSm.svg");
         left: -23px;
+      }
+    }
+  }
+  .contact {
+    background-image: none;
+    padding: 42px 0 38px;
+    &__inner {
+      padding: 0;
+    }
+    &__box {
+      border: none;
+    }
+    &__title {
+      font-size: 22px;
+      line-height: 27px;
+      margin-bottom: 27px;
+    }
+    &__desc {
+      span {
+        display: flex;
+        width: 100%;
+        justify-content: center;
       }
     }
   }

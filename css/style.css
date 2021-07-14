@@ -2054,5 +2054,29 @@ body {
     content: url("../images/overSm.svg");
     left: -23px;
   }
+  .contact {
+    background-image: none;
+    padding: 42px 0 38px;
+  }
+  .contact__inner {
+    padding: 0;
+  }
+  .contact__box {
+    border: none;
+  }
+  .contact__title {
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 27px;
+  }
+  .contact__desc span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
