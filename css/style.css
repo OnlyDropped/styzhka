@@ -1908,5 +1908,29 @@ body {
   .flat__slide-info {
     margin-bottom: 21px;
   }
+  .form__inner {
+    padding: 59px 0 90px;
+    background-image: none;
+    background-image: url("../images/form-bg.png");
+    background-position-x: left;
+  }
+  .form__inner::before {
+    content: none;
+  }
+  .form__inner::after {
+    content: none;
+  }
+  .form__block-text {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .form__block-text span {
+    color: #ff5b14;
+  }
+  .form__block-link {
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

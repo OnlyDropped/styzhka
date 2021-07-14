@@ -1582,4 +1582,30 @@ body {
       margin-bottom: 21px;
     }
   }
+  .form {
+    &__inner {
+      padding: 59px 0 90px;
+      background-image: none;
+      background-image: url("../images/form-bg.png");
+      background-position-x: left;
+      &::before {
+        content: none;
+      }
+      &::after {
+        content: none;
+      }
+    }
+    &__block-text {
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 12px;
+      span {
+        color: #ff5b14;
+      }
+    }
+    &__block-link {
+      font-size: 30px;
+      line-height: 37px;
+    }
+  }
 }
