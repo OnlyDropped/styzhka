@@ -1637,4 +1637,25 @@ body {
       align-items: center;
     }
   }
+  .accordeon {
+    padding: 57px 0 42px;
+    background: #cac7c7;
+    &__title {
+      font-size: 22px;
+      line-height: 27px;
+      margin-bottom: 19px;
+    }
+    &__inner {
+      width: 342px;
+    }
+    &__label {
+      //padding: 12px 12px 12px 19px;
+      padding-left: 19px;
+      font-size: 14px;
+      line-height: 17px;
+      background-position-x: 270px;
+      background-image: none;
+      background-image: url('../images/accord-checkedSmall.svg');
+    }
+  }
 }

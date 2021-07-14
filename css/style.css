@@ -1969,5 +1969,25 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .accordeon {
+    padding: 57px 0 42px;
+    background: #cac7c7;
+  }
+  .accordeon__title {
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 19px;
+  }
+  .accordeon__inner {
+    width: 342px;
+  }
+  .accordeon__label {
+    padding-left: 19px;
+    font-size: 14px;
+    line-height: 17px;
+    background-position-x: 270px;
+    background-image: none;
+    background-image: url("../images/accord-checkedSmall.svg");
+  }
 }
 /*# sourceMappingURL=style.css.map */
