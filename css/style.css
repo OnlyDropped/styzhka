@@ -2078,5 +2078,12 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .footer {
+    padding: 16px 0 19px;
+  }
+  .footer__text {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
