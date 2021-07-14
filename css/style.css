@@ -1716,5 +1716,197 @@ body {
   .price__card img {
     width: inherit;
   }
+  .work {
+    padding: 40px 0 40px;
+    background-size: cover;
+  }
+  .work__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .work__card {
+    margin: 0 auto 10px;
+  }
+  .work__info-btn {
+    display: none;
+  }
+  .work__info-item {
+    width: 224px;
+  }
+  .question {
+    padding: 58px 0px 46px;
+  }
+  .question__title {
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+  .question__info-item {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .question__info-item:last-child {
+    margin-bottom: 29px;
+  }
+  .question__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .question__content-images {
+    width: 201px;
+    height: 151px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .question__info-text {
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 0;
+  }
+  .question__info-btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 14px 33px;
+    margin-left: auto;
+  }
+  .question__content {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .question__content-list {
+    padding-top: 0;
+  }
+  .question__content-item {
+    width: 100%;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .question__content-item--span::before {
+    -webkit-transform: rotate(-9.21deg);
+            transform: rotate(-9.21deg);
+    left: -188px;
+    top: 8px;
+    width: 52px;
+  }
+  .question__content-item--third::before {
+    width: 12px;
+    -webkit-transform: rotate(31.19deg);
+            transform: rotate(31.19deg);
+    left: -145px;
+    top: -2px;
+  }
+  .question__content-item--second::before {
+    width: 32px;
+    left: -121px;
+    top: 0px;
+    -webkit-transform: rotate(14.35deg);
+            transform: rotate(14.35deg);
+  }
+  .question__content-item--four::before {
+    width: 5px;
+    -webkit-transform: rotate(60.19deg);
+            transform: rotate(60.19deg);
+    left: -106px;
+    top: -3px;
+  }
+  .flat {
+    padding: 31px 0 31px;
+    background-image: none;
+  }
+  .flat .flaf__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .flat__title {
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .flat__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 49px;
+  }
+  .flat__list span {
+    display: none;
+  }
+  .flat__list-item {
+    margin-bottom: 7px;
+  }
+  .flat__list-item--second {
+    margin-left: 54px;
+  }
+  .flat__slide {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 18px 5px;
+  }
+  .flat__slide-content {
+    min-width: 330px;
+    -webkit-column-gap: 15px;
+            column-gap: 15px;
+  }
+  .flat__slide-content img {
+    width: 150px;
+    height: 150px;
+    margin-right: 0;
+  }
+  .flat__slide-title {
+    max-width: 310px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .flat__slide-text img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0;
+  }
+  .flat__slide-span {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 22px;
+  }
+  .flat__slide-desc {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: -40px;
+  }
+  .flat__slide-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .flat__slide-btn {
+    display: block;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 auto 14px;
+  }
+  .flat__slide-link {
+    background-color: aqua;
+    display: block;
+    margin: auto;
+  }
+  .flat__slide-info {
+    margin-bottom: 21px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

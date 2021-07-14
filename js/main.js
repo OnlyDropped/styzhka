@@ -4,7 +4,17 @@ $(function () {
     nextArrow: '<button type="button" class="slick-next"><img src="images/arrow-right.svg" alt=""></button>',
     dots: true,
     autoplay: true,
-    autoplaySpeed: 2000
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 375,
+        settings: {
+          arrows: false,
+          dots: true,
+          infinite: true
+        }
+      }
+    ]
   });
   //$('.center').slick({
   //  //centerMode: true,
