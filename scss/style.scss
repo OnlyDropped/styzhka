@@ -1182,7 +1182,41 @@ body {
     margin-bottom: 5px;
   }
 }
+
 //@import 'media';
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px 0 28px;
+    background-position-y: initial;
+    &__title {
+      font-size: 30px;
+      line-height: 42px;
+      margin-bottom: 10px;
+    }
+    &__text {
+      font-size: 19px;
+      line-height: 35px;
+      margin-bottom: 10px;
+    }
+    &__inner-info {
+      display: none;
+    }
+    &__contact-tel {
+      margin-left: 0px;
+    }
+    &__contact-link {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    &__contact-btn {
+      padding: 8px;
+    }
+    &__nav-link {
+      font-size: 18px;
+      line-height: 18px;
+    }
+  }
+}
 @media screen and (max-width: 375px) {
   .header {
     display: block;

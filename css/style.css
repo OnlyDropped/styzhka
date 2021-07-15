@@ -1478,6 +1478,40 @@ body {
   margin-bottom: 5px;
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px 0 28px;
+    background-position-y: initial;
+  }
+  .header__title {
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 10px;
+  }
+  .header__text {
+    font-size: 19px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  .header__inner-info {
+    display: none;
+  }
+  .header__contact-tel {
+    margin-left: 0px;
+  }
+  .header__contact-link {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .header__contact-btn {
+    padding: 8px;
+  }
+  .header__nav-link {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header {
     display: block;
