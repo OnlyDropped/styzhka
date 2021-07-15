@@ -1248,6 +1248,31 @@ body {
       margin-right: 15px;
     }
   }
+  .material {
+    padding: 45px 0 45px;
+    &__title {
+      font-size: 26px;
+      line-height: 34px;
+    }
+    &__subtitle {
+      font-size: 15px;
+      line-height: 27px;
+    }
+    &__box {
+      padding-left: 0;
+      background-size: cover;
+      background-position-x: left;
+    }
+    &__box-card:nth-child(2) {
+      margin-top: 0;
+      transform: translateX(0px);
+      margin-top: 45px;
+    }
+    &__box-card:nth-child(3) {
+      transform: translateX(0px);
+      margin-top: 45px;
+    }
+  }
 }
 @media screen and (max-width: 375px) {
   .header {
