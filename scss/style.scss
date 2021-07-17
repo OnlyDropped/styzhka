@@ -1408,6 +1408,39 @@ body {
       row-gap: 20px;
     }
   }
+  .accordeon {
+    padding: 45px 0px;
+    &__inner {
+      width: 100%;
+    }
+  }
+  .tel {
+    padding: 45px 0px;
+    &__content {
+      padding: 25px 0px;
+      width: 100%;
+      &::before {
+        width: 60px;
+        height: 60px;
+        right: -10px;
+      }
+      &::after {
+        width: 60px;
+        height: 60px;
+        left: -10px;
+      }
+    }
+    &__title {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    &__form-btn {
+      padding: 25px 64px;
+    }
+  }
+  .contact{
+    padding: 45px 0px;
+  }
 }
 @media screen and (max-width: 375px) {
   .header {

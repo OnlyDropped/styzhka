@@ -1706,6 +1706,39 @@ body {
     width: 50%;
     row-gap: 20px;
   }
+  .accordeon {
+    padding: 45px 0px;
+  }
+  .accordeon__inner {
+    width: 100%;
+  }
+  .tel {
+    padding: 45px 0px;
+  }
+  .tel__content {
+    padding: 25px 0px;
+    width: 100%;
+  }
+  .tel__content::before {
+    width: 60px;
+    height: 60px;
+    right: -10px;
+  }
+  .tel__content::after {
+    width: 60px;
+    height: 60px;
+    left: -10px;
+  }
+  .tel__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .tel__form-btn {
+    padding: 25px 64px;
+  }
+  .contact {
+    padding: 45px 0px;
+  }
 }
 
 @media screen and (max-width: 375px) {
