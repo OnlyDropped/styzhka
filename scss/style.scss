@@ -1307,6 +1307,71 @@ body {
       padding: 15px;
     }
   }
+  .question {
+    padding: 20px 0;
+    &__title {
+      font-size: 28px;
+      line-height: 30px;
+      margin-bottom: 35px;
+    }
+    &__inner {
+      flex-direction: column;
+    }
+    &__content {
+      margin-left: 0px;
+    }
+  }
+  .flat {
+    padding: 45px 0px;
+    //& .slick-next{
+    //  display: none;
+    //}
+    &__slider {
+      .slick-next,
+      .slick-prev {
+        display: none !important;
+      }
+    }
+    &__title {
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 35px;
+    }
+    &__list {
+      margin-bottom: 30px;
+    }
+    &__list-link {
+      font-size: 19px;
+      line-height: 20px;
+    }
+    &__slide {
+      width: 740px;
+      padding: 10px;
+    }
+    &__slide-content {
+      min-width: 350px;
+    }
+    &__slide-content > img {
+      width: 155px;
+      height: 155px;
+    }
+    &__slide-title {
+      max-width: 362px;
+      font-size: 17px;
+      line-height: 19px;
+    }
+    &__slide-btn {
+      font-size: 14px;
+      line-height: 15px;
+    }
+    &__slide-link {
+      font-size: 15px;
+      line-height: 20px;
+    }
+    &__slide-text img {
+      margin-bottom: 0;
+    }
+  }
 }
 @media screen and (max-width: 375px) {
   .header {

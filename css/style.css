@@ -1608,6 +1608,69 @@ body {
   .work__info-btn {
     padding: 15px;
   }
+  .question {
+    padding: 20px 0;
+  }
+  .question__title {
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 35px;
+  }
+  .question__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .question__content {
+    margin-left: 0px;
+  }
+  .flat {
+    padding: 45px 0px;
+  }
+  .flat__slider .slick-next,
+  .flat__slider .slick-prev {
+    display: none !important;
+  }
+  .flat__title {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 35px;
+  }
+  .flat__list {
+    margin-bottom: 30px;
+  }
+  .flat__list-link {
+    font-size: 19px;
+    line-height: 20px;
+  }
+  .flat__slide {
+    width: 740px;
+    padding: 10px;
+  }
+  .flat__slide-content {
+    min-width: 350px;
+  }
+  .flat__slide-content > img {
+    width: 155px;
+    height: 155px;
+  }
+  .flat__slide-title {
+    max-width: 362px;
+    font-size: 17px;
+    line-height: 19px;
+  }
+  .flat__slide-btn {
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .flat__slide-link {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .flat__slide-text img {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 375px) {

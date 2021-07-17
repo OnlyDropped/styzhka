@@ -7,6 +7,16 @@ $(function () {
     autoplaySpeed: 2000,
     responsive: [
       {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          dots: true,
+          infinite: true
+        }
+      }
+    ],
+    responsive: [
+      {
         breakpoint: 375,
         settings: {
           arrows: false,
