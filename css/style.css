@@ -1671,6 +1671,28 @@ body {
   .flat__slide-text img {
     margin-bottom: 0;
   }
+  .form__inner {
+    padding: 45px 0px;
+    z-index: 21;
+  }
+  .form__inner::before {
+    display: none;
+  }
+  .form__inner::after {
+    z-index: -8;
+    bottom: 0px;
+  }
+  .form__block {
+    padding: 25px 0px;
+  }
+  .form__block-text {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .form__block-link {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 
 @media screen and (max-width: 375px) {
