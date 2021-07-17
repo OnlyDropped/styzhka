@@ -1693,6 +1693,19 @@ body {
     font-size: 30px;
     line-height: 40px;
   }
+  .about {
+    padding: 45px 0px;
+  }
+  .about__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .about__card {
+    margin-right: 0px;
+    width: 50%;
+    row-gap: 20px;
+  }
 }
 
 @media screen and (max-width: 375px) {

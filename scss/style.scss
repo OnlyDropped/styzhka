@@ -1396,6 +1396,18 @@ body {
       }
     }
   }
+  .about {
+    padding: 45px 0px;
+    &__inner {
+      flex-wrap: wrap;
+      row-gap: 20px;
+    }
+    &__card {
+      margin-right: 0px;
+      width: 50%;
+      row-gap: 20px;
+    }
+  }
 }
 @media screen and (max-width: 375px) {
   .header {
